@@ -4,7 +4,12 @@ import "./Header.css"
 import SearchIcon from '@material-ui/icons/Search'
 import {ShoppingBasket} from '@material-ui/icons'
 
+import {useStateValue} from '../providers/StateProvider'
+
 function Header() {
+
+    const [{ basket, user}, dispatch] = useStateValue();
+
   return (
     <div className='header'>
       
