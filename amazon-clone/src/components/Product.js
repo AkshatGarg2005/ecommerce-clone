@@ -29,7 +29,7 @@ function Product({id,title,image,price,rating}) {
             <p>{title}</p>
 
             <p className='product__price'>
-                <small>$</small>
+                <small>₹</small>
                 <strong>{price}</strong>
             </p>
 
@@ -49,7 +49,7 @@ function Product({id,title,image,price,rating}) {
 
         
     </div>
-  )
+  ) 
 }
 
 export default Product

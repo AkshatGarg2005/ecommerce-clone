@@ -23,11 +23,14 @@
 }
 
 .add-to-cart{
-    background: #f0c14b;
+    background: #F7CA00;
     border: 1px solid;
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
+    padding: 7px 10px;
+    border-radius: 20px;
+    font-weight: 800;
 }
 
 .product__price{
